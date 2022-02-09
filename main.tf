@@ -1,7 +1,6 @@
-// Configure the Google Cloud provider
 provider "google" {
- credentials = "${file("nth-drive-340808-7b3c7b9789d3.json")}"
- project     = "My First Project"
+ credentials = "${file("nth-drive-340808-22b171643d90.json")}"
+ project     = "nth-drive-340808"
  region      = "us-central1-a"
 }
  
